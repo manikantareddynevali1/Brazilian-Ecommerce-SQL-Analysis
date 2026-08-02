@@ -1,5 +1,3 @@
-# Brazilian-Ecommerce-SQL-Analysis
-
 # 🛒 Brazilian E-Commerce SQL Analysis
 
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
@@ -113,11 +111,17 @@ brazilian-ecommerce-sql-analysis/
 │   └── product_category_name_translation.csv
 │
 ├── sql/
-│   ├── 01_schema_creation.sql      # Table definitions, constraints, keys
-│   ├── 02_data_import.sql          # COPY commands for CSV import
-│   ├── 03_business_questions.sql   # All analytical queries
-│   ├── 04_views.sql                # Reusable views
-│   └── 05_indexes.sql              # Indexing for performance
+│   ├── 01_schema_creation.sql       # Table definitions, constraints, keys
+│   ├── 02_data_import.sql           # COPY commands for CSV import
+│   ├── 03_aggregate_queries.sql     # Core aggregate/summary metrics
+│   ├── 04_joins_topn.sql            # Joins and Top-N ranking queries
+│   ├── 05_date_functions.sql        # Date & time-based analysis
+│   ├── 06_ctes.sql                  # Common Table Expressions
+│   ├── 07_subqueries.sql            # Subquery-based analysis
+│   ├── 08_views.sql                 # Reusable views
+│   ├── 09_case_statements.sql       # Segmentation & classification logic
+│   ├── 10_window_functions.sql      # Ranking, running totals, LAG/AVG
+│   └── 11_indexes.sql               # Indexing for performance
 │
 ├── screenshots/
 │   ├── er-diagram.png
@@ -132,28 +136,98 @@ brazilian-ecommerce-sql-analysis/
 
 ## ❓ Business Questions Solved
 
+A total of **46 business questions** were answered in this project, organized by SQL technique.
+
+**Core Aggregate Analysis**
+
 | # | Business Question |
 |---|---|
-| 1 | What is the total number of orders placed each year? |
-| 2 | What is the month-over-month revenue trend? |
-| 3 | Who are the top 10 customers by total spend? |
-| 4 | Which product categories generate the highest revenue? |
-| 5 | What is the average delivery time across all orders? |
-| 6 | Which orders were delivered late compared to the estimated date? |
-| 7 | What is the average review score by product category? |
-| 8 | Which sellers have the highest total sales? |
-| 9 | What is the distribution of payment types used by customers? |
-| 10 | What percentage of orders are paid in installments? |
-| 11 | Which states have the highest number of customers? |
-| 12 | What is the average freight value by region? |
-| 13 | Which product categories have the highest return/cancellation rate? |
-| 14 | What is the correlation between delivery delay and review score? |
-| 15 | Who are the top 5 sellers by average customer rating? |
-| 16 | What is the average order value (AOV) per state? |
-| 17 | Which month recorded the highest number of order cancellations? |
-| 18 | What is the running total of monthly revenue (using window functions)? |
-| 19 | How does order volume vary by day of the week? |
-| 20 | What is the customer repeat purchase rate? |
+| 1 | What is the total revenue generated from all customer payments? |
+| 2 | How many orders have been placed on the e-commerce platform? |
+| 3 | How many customers are registered on the e-commerce platform? |
+| 4 | What is the average payment value per transaction? |
+| 5 | How are orders distributed across different order statuses? |
+
+**Joins & Top-N Rankings**
+
+| # | Business Question |
+|---|---|
+| 6 | Which customers have spent the highest total amount on purchases? (Top 10) |
+| 7 | Which sellers generated the highest revenue from product sales? (Top 10) |
+| 8 | Which product categories are the most popular based on the number of products sold? (Top 10) |
+| 9 | Which customer states generated the highest total revenue? |
+| 10 | Which payment method is used most frequently by customers? |
+
+**Date & Time Analysis**
+
+| # | Business Question |
+|---|---|
+| 11 | How has the company's monthly revenue changed over time? |
+| 12 | How many orders were placed each month? |
+| 13 | What is the average number of days taken to deliver an order? |
+| 14 | On which day of the week do customers place the highest number of orders? |
+| 15 | How many orders were placed each year? |
+
+**Common Table Expressions (CTEs)**
+
+| # | Business Question |
+|---|---|
+| 16 | Which customers spent more than the average customer spending? |
+| 17 | Which sellers generated the highest revenue? (CTE-based Top 10) |
+| 18 | What is the monthly revenue trend? |
+| 19 | Which product categories generated revenue above the average product price? |
+| 20 | Which customers placed more than one order? (Repeat customers) |
+
+**Subqueries**
+
+| # | Business Question |
+|---|---|
+| 21 | Which customers have spent more than the average payment value? |
+| 22 | Which sellers generated above-average revenue? |
+| 23 | Which products generated revenue greater than the average product price? |
+| 24 | Which customer states generated revenue above the average state revenue? |
+| 25 | Which customers placed more orders than the average customer? |
+
+**Views**
+
+| # | Business Question |
+|---|---|
+| 26 | How can we create a reusable view to identify customers based on their total spending? |
+| 27 | How can we create a reusable view to analyze seller revenue? |
+| 28 | How can we create a reusable view to monitor monthly revenue trends? |
+
+**CASE Statements (Segmentation & Classification)**
+
+| # | Business Question |
+|---|---|
+| 29 | How can completed orders be classified based on their delivery speed (Fast / Normal / Delayed)? |
+| 30 | How can customer payments be classified into Low, Medium, and High payment categories? |
+| 31 | How can sellers be classified based on the revenue they generated (Low / Average / Top Performer)? |
+| 32 | How can customers be classified based on their total spending (Low / Medium / High Value)? |
+| 33 | How can products be classified as Cheap, Moderate, or Expensive based on their selling price? |
+
+**Window Functions**
+
+| # | Business Question |
+|---|---|
+| 34 | Which customers have placed the highest number of orders? (`ROW_NUMBER()`) |
+| 35 | Which sellers generated the highest revenue? (`RANK()`) |
+| 36 | Which product categories are the most popular based on products sold? (`DENSE_RANK()`) |
+| 37 | How does cumulative monthly revenue grow over time? (Running total with `SUM() OVER()`) |
+| 38 | How did the number of orders change compared to the previous month? (`LAG()`) |
+| 39 | What is the running average of monthly revenue over time? (`AVG() OVER()`) |
+| 40 | Who are the top three sellers based on total sales revenue? (`DENSE_RANK()`) |
+
+**Indexing & Query Optimization**
+
+| # | Business Question |
+|---|---|
+| 41 | How can join performance between `customers` and `orders` be improved? (Index on `customer_id`) |
+| 42 | How can join performance between `orders` and `order_items` be improved? (Index on `order_id`) |
+| 43 | How can seller-based analysis and revenue calculations be sped up? (Index on `seller_id`) |
+| 44 | How can date-based queries such as monthly/yearly sales analysis be optimized? (Index on `order_purchase_timestamp`) |
+| 45 | How can joins between `products` and `order_items` be improved? (Index on `product_id`) |
+| 46 | How can all indexes created in the database be verified? (`pg_indexes` system catalog) |
 
 ---
 
