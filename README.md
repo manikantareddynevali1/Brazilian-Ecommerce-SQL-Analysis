@@ -5,7 +5,6 @@
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![Database](https://img.shields.io/badge/Database-Relational-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 ![Made With](https://img.shields.io/badge/Made%20With-%E2%9D%A4%EF%B8%8F%20and%20SQL-red?style=flat-square)
 
 An end-to-end **SQL data analysis project** built on the real-world **Brazilian E-Commerce Public Dataset (Olist)**, using **PostgreSQL** to extract meaningful business insights across sales, customers, sellers, logistics, payments, and reviews.
@@ -274,9 +273,7 @@ The following enhancements are planned for future versions of this project:
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
 ---
 
