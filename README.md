@@ -129,7 +129,7 @@ brazilian-ecommerce-sql-analysis/
 │   └── query-outputs/
 │
 ├── README.md
-└── LICENSE
+
 ```
 
 ---
