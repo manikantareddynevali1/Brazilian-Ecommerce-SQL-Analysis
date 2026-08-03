@@ -267,7 +267,7 @@ A total of **46 business questions** were answered in this project, organized by
 
 **Sample Query Output**
 ```
-./screenshots/query-outputs/sample-output-1.png
+./screenshots/top_10_customers.png
 ```
 
 **ER Diagram**
