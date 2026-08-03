@@ -67,8 +67,6 @@ The dataset contains real, anonymized commercial data from **Olist**, the larges
 
 ## 🗂️ Database Schema
 
-> 📌 **Placeholder:** Insert the ER Diagram image below.
-
 ```
 /screenshots/Er-diagram.png
 ```
