@@ -100,17 +100,16 @@ brazilian-ecommerce-sql-analysis/
 │   ├── dataset_link.md.txt
 │
 ├── sql/
-│   ├── 01_schema_creation.sql       # Table definitions, constraints, keys
-│   ├── 02_data_import.sql           # COPY commands for CSV import
-│   ├── 03_aggregate_queries.sql     # Core aggregate/summary metrics
-│   ├── 04_joins_topn.sql            # Joins and Top-N ranking queries
-│   ├── 05_date_functions.sql        # Date & time-based analysis
-│   ├── 06_ctes.sql                  # Common Table Expressions
-│   ├── 07_subqueries.sql            # Subquery-based analysis
-│   ├── 08_views.sql                 # Reusable views
-│   ├── 09_case_statements.sql       # Segmentation & classification logic
-│   ├── 10_window_functions.sql      # Ranking, running totals, LAG/AVG
-│   └── 11_indexes.sql               # Indexing for performance
+│   ├── basic_queries.sql       
+│   ├── join_queries.sql           
+│   ├── data_analysis.sql    
+│   ├── cte_queries.sql         
+│   ├── subqueries.sql      
+│   ├── views.sql             
+│   ├── case_statements.sql          
+│   ├── window_functions.sql        
+│   ├── indexes.sql     
+│       
 │
 ├── screenshots/
 │   ├── er-diagram.png
