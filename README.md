@@ -72,9 +72,6 @@ The dataset contains real, anonymized commercial data from **Olist**, the larges
 ```
 /screenshots/er-diagram.png
 ```
-
-## 📁 Database Schema
-
 ![ER Diagram](./screenshots/image.png)
 
 ---
