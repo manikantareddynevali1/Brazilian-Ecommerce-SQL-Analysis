@@ -70,10 +70,9 @@ The dataset contains real, anonymized commercial data from **Olist**, the larges
 > 📌 **Placeholder:** Insert the ER Diagram image below.
 
 ```
-/screenshots/er-diagram.png
+/screenshots/image.png
 ```
-
-![ER Diagram](Screenshot 2026-08-02 232442.png)
+![ER Diagram](./screenshots/image.png)
 
 ---
 
@@ -100,15 +99,7 @@ This project applies a broad range of SQL techniques, from foundational querying
 brazilian-ecommerce-sql-analysis/
 │
 ├── data/                          # Raw CSV files (Olist dataset)
-│   ├── olist_customers_dataset.csv
-│   ├── olist_orders_dataset.csv
-│   ├── olist_order_items_dataset.csv
-│   ├── olist_order_payments_dataset.csv
-│   ├── olist_order_reviews_dataset.csv
-│   ├── olist_products_dataset.csv
-│   ├── olist_sellers_dataset.csv
-│   ├── olist_geolocation_dataset.csv
-│   └── product_category_name_translation.csv
+│   ├── dataset_link.md.txt
 │
 ├── sql/
 │   ├── 01_schema_creation.sql       # Table definitions, constraints, keys
