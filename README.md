@@ -70,7 +70,7 @@ The dataset contains real, anonymized commercial data from **Olist**, the larges
 > 📌 **Placeholder:** Insert the ER Diagram image below.
 
 ```
-/screenshots/er-diagram.png
+/screenshots/image.png
 ```
 ![ER Diagram](./screenshots/image.png)
 
