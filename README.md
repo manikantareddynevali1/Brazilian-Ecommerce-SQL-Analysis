@@ -271,7 +271,7 @@ A total of **46 business questions** were answered in this project, organized by
 
 **ER Diagram**
 
-![ER Diagram](./screenshots/er-diagram.png)
+![ER Diagram](./screenshots/Er-diagram.png)
 
 
 
