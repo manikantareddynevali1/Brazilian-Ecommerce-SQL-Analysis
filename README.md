@@ -265,10 +265,9 @@ A total of **46 business questions** were answered in this project, organized by
 ![PostgreSQL Database Tables](./screenshots/tables-overview.png)
 
 
-**Sample Query Output**
-```
-./screenshots/top_10_customers.png
-```
+**Sample Query Output of Top 10 Customers**
+
+![Top 10 Customers](./screenshots/top_10_customers.png)
 
 **ER Diagram**
 ```
