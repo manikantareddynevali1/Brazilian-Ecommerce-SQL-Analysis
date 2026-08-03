@@ -20,7 +20,7 @@ The project covers the complete analytical workflow:
 - 📊 Aggregating and summarizing data for business reporting
 - 🧮 Building CTEs, subqueries, and window functions for advanced analytics
 - ⚡ Creating views and indexes to simulate real-world query optimization
-- 💡 Translating raw data into **20+ actionable business insights**
+- 💡 Translating raw data into **40+ actionable business insights**
 
 > **Note:** This repository currently contains **only the PostgreSQL SQL analysis**. Visualization layers (Power BI, Python EDA) are planned as future enhancements — see [Future Improvements](#-future-improvements).
 
