@@ -270,9 +270,10 @@ A total of **46 business questions** were answered in this project, organized by
 ![Top 10 Customers](./screenshots/top_10_customers.png)
 
 **ER Diagram**
-```
-./screenshots/Er-diagram.png
-```
+
+![ER Diagram](./screenshots/er-diagram.png)
+
+
 
 ---
 
