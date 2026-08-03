@@ -259,7 +259,6 @@ A total of **46 business questions** were answered in this project, organized by
 
 ## 🖼️ Screenshots
 
-> 📌 **Placeholders — replace with actual screenshots**
 
 **PostgreSQL Database Tables**
 ```
@@ -273,7 +272,7 @@ A total of **46 business questions** were answered in this project, organized by
 
 **ER Diagram**
 ```
-./screenshots/er-diagram.png
+./screenshots/Er-diagram.png
 ```
 
 ---
