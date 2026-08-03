@@ -20,7 +20,7 @@ The project covers the complete analytical workflow:
 - 📊 Aggregating and summarizing data for business reporting
 - 🧮 Building CTEs, subqueries, and window functions for advanced analytics
 - ⚡ Creating views and indexes to simulate real-world query optimization
-- 💡 Translating raw data into **20+ actionable business insights**
+- 💡 Translating raw data into **40+ actionable business insights**
 
 > **Note:** This repository currently contains **only the PostgreSQL SQL analysis**. Visualization layers (Power BI, Python EDA) are planned as future enhancements — see [Future Improvements](#-future-improvements).
 
@@ -67,8 +67,6 @@ The dataset contains real, anonymized commercial data from **Olist**, the larges
 
 ## 🗂️ Database Schema
 
-> 📌 **Placeholder:** Insert the ER Diagram image below.
-
 ```
 /screenshots/Er-diagram.png
 ```
@@ -102,22 +100,22 @@ brazilian-ecommerce-sql-analysis/
 │   ├── dataset_link.md.txt
 │
 ├── sql/
-│   ├── 01_schema_creation.sql       # Table definitions, constraints, keys
-│   ├── 02_data_import.sql           # COPY commands for CSV import
-│   ├── 03_aggregate_queries.sql     # Core aggregate/summary metrics
-│   ├── 04_joins_topn.sql            # Joins and Top-N ranking queries
-│   ├── 05_date_functions.sql        # Date & time-based analysis
-│   ├── 06_ctes.sql                  # Common Table Expressions
-│   ├── 07_subqueries.sql            # Subquery-based analysis
-│   ├── 08_views.sql                 # Reusable views
-│   ├── 09_case_statements.sql       # Segmentation & classification logic
-│   ├── 10_window_functions.sql      # Ranking, running totals, LAG/AVG
-│   └── 11_indexes.sql               # Indexing for performance
+│   ├── basic_queries.sql       
+│   ├── join_queries.sql           
+│   ├── data_analysis.sql    
+│   ├── cte_queries.sql         
+│   ├── subqueries.sql      
+│   ├── views.sql             
+│   ├── case_statements.sql          
+│   ├── window_functions.sql        
+│   ├── indexes.sql     
+│       
 │
 ├── screenshots/
 │   ├── er-diagram.png
 │   ├── tables-overview.png
-│   └── query-outputs/
+│   ├── orders-table.png
+|    ├──customers-table.png    
 │
 ├── README.md
 
@@ -261,7 +259,6 @@ A total of **46 business questions** were answered in this project, organized by
 
 ## 🖼️ Screenshots
 
-> 📌 **Placeholders — replace with actual screenshots**
 
 **PostgreSQL Database Tables**
 ```
@@ -275,7 +272,7 @@ A total of **46 business questions** were answered in this project, organized by
 
 **ER Diagram**
 ```
-./screenshots/er-diagram.png
+./screenshots/Er-diagram.png
 ```
 
 ---
@@ -331,15 +328,10 @@ The following enhancements are planned for future versions of this project:
 
 ## 🤝 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/your-username)
-
-> Replace the links above with your actual LinkedIn and GitHub profile URLs.
-
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mani-reddy-05506541a)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/manikantareddynevali1)
 
 
 ---
 
-<p align="center">⭐ If you found this project useful, consider giving it a star!</p>
 
