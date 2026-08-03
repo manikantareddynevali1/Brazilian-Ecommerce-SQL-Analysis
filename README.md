@@ -331,12 +331,7 @@ The following enhancements are planned for future versions of this project:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mani-reddy-05506541a)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/manikantareddynevali1)
 
-> Replace the links above with your actual LinkedIn and GitHub profile URLs.
 
 ---
 
-
----
-
-<p align="center">⭐ If you found this project useful, consider giving it a star!</p>
 
