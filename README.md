@@ -115,7 +115,8 @@ brazilian-ecommerce-sql-analysis/
 ├── screenshots/
 │   ├── er-diagram.png
 │   ├── tables-overview.png
-│   └── query-outputs/
+│   ├── orders-table.png
+|    ├──customers-table.png    
 │
 ├── README.md
 
